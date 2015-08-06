@@ -1,0 +1,10 @@
+
+<st-markdown-textarea
+  config="c.config"
+  preview-markdown="c.isPreviewingMarkdown"
+  flag-focused-markdown="c.flagFocusedMarkdown"
+  ng-model="c.model.job.content.markdownFreeText"
+  focus-function="c.focusMarkdown()"
+  edit-function="c.editMarkdown()"
+  preview-function="c.previewHTML(form)"
+  st-allow-pattern="/^(.|\n){0,10000}$/">
