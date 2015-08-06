@@ -1,0 +1,5 @@
+<span ng-repeat="r in c.allRoles">
+  <st-forms-roles-check-box role-name="r" all-roles="c.enums.userRole" user-roles="c.roles"
+      update-function="c.updateRole(role, selected)"
+      st-link-tooltip="{%c.tooltip(r)%}"></st-forms-roles-check-box>
+</span>
