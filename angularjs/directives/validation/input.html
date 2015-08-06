@@ -1,0 +1,6 @@
+<input type="email" name="email"  placeholder="例）sample@stanby.com" autocomplete="off"
+   required maxlength="100"
+   ng-model="c.model.email"
+   st-validate-email st-validate-email-duplicate
+   stb-tooltip="{% $viewLength %}/100文字まで"
+   st-delayed-update>
